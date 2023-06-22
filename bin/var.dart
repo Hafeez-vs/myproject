@@ -19,4 +19,11 @@ void main(){
   print('$email');
   print('$cgpa');
   print('$course');
+  print('enter a value');
+  int a=int.parse(stdin.readLineSync()!);
+  print('enter a value');
+  int b=int.parse(stdin.readLineSync()!);
+  int c;
+  c=a+b;
+  print('$c');
 }
